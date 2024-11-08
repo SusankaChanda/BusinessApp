@@ -1,0 +1,53 @@
+.bussiness-info-main-container{
+    box-sizing: border-box;
+}
+.bussiness-info-text{
+    color: #90212d;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bussiness-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.business-button-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.arrow-icon-back{
+    margin-right: 5px;    
+}
+.business-button{
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 0px;
+    background-color: #db3546;
+    color: #fff;
+    font-size: 13px;
+}
+.arrow-icon{
+    margin-left: 5px;    
+}
+
+/* .form-fit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    background-color: yellow;
+} */
+
+.fill-with-dummy-data{
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #f18691;
+    height: 40px;
+    font-size: 13px;
+    width: 200px;
+}

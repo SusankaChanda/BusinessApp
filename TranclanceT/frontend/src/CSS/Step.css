@@ -1,0 +1,50 @@
+.step-main-container{
+    height: 50px;
+    /* background-color: yellow; */
+    margin-bottom: 23px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.step-sub-container{
+    display: flex;
+    gap: 13px;
+    cursor: pointer;
+}
+.step-number-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeddb;
+    /* background-color:#db3546; */
+    font-size:12px ;
+}
+
+.step-number-container-checked{
+    background-color: #db3546;
+
+}
+
+.step-title-container{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.step-id-text{
+    font-size: 12px;
+}
+
+@media (max-width: 768px){
+    .step-sub-container{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .step-main-container{
+        height: fit-content;
+    }
+}

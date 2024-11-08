@@ -1,0 +1,42 @@
+.steps-main-container{
+    box-sizing: border-box;
+    min-height: 50vh;
+    background-color: #fff;
+    padding: 0px 20px 0px 20px;
+}
+.steps-sub-container{
+    height: 100%;
+    width: 100%;
+    background-color: #ffd097;
+    border-radius: 15px;
+    padding: 20px 13px 20px 13px;
+}
+
+.steps-heading{
+    color: #121212;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.steps-paragraph{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.step-line {
+  height: 1px;
+  background-color: #ddd;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+  .steps{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .steps-main-container{
+    margin-bottom: 40px;
+  }
+}

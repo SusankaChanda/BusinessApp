@@ -1,0 +1,137 @@
+.owner-details-button{
+    background-color: #90212d;
+    height: 40px;
+    width: 170px;
+    border-radius: 17px;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.profile-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+}
+.profile-pic-main-upload{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border-radius: 10px;
+    border:1px solid rgb(168, 163, 163);
+    cursor: pointer;
+}
+.profile-pic-sub-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.file-upload-icon{
+    font-size: 20px;
+}
+.upload-pic-text{
+    font-size: 10px;
+    margin: 5px 0px 0px 0px;
+    padding:0px ;
+    color: #000;
+}
+
+.manager-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* background-color:#90212d; */
+}
+
+.manager-details-text{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.owner-button-container{
+    /* background-color: yellow; */
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owner-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+
+.manager-owner-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size:13px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.otp-field-mobile{
+    background-color: red;
+}
+
+.otp-buttons-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.validate-button{
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #db3546;
+    color: #fff;
+}
+
+.validate-button-submit{
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #db3546;
+    color: #fff;
+    margin-top: 20px;
+}
+.otp-field-container{
+    margin-bottom: 20px;
+}
+.submit-button-container{
+    display: flex;
+    justify-content: end;
+}

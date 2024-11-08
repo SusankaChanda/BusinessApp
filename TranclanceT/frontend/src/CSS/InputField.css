@@ -1,0 +1,175 @@
+.input-filed-main-container{
+    box-sizing: border-box;
+    margin: 10px;
+}
+.input-field-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-field-name{
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.input-filed-text-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* .input-bar{
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #dadada;
+    outline: none;
+    color:#202020;
+    font-size: 13px;
+    width: 100%;
+} */
+.input-filed-icon{
+    /* margin-left: -30px; */
+    color: grey;
+    font-size: 10px;
+    display: flex;
+    align-items: end;
+}
+.information-icon-container{
+    /* background-color: red; */
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-filed-end-icon{
+    margin-left: -20px;
+    font-size: 13px;
+}
+
+
+.input-field-name-error{
+    padding: 0px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.error-color{
+    color: red;
+}
+
+.otp-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-bar {
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #dadada;
+  outline: none;
+  color: #202020;
+  font-size: 13px;
+  width: 100%;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  background-color: #db3546; /* You can change the color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #e61328; /* Hover effect */
+}
+.same-as-text-container{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: yellow; */
+    gap: 4px;
+    align-items: center;
+}
+.same-as-text{
+    font-size: 12px;
+    margin: 3px 0px 0px 0px;
+    color: red;
+    padding: 0px;
+}
+
+.checkbox-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid red;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check{
+  height: 82%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(211, 11, 11);
+  border-radius: 50%;
+}
+.otp-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-bar {
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #dadada;
+  outline: none;
+  color: #202020;
+  font-size: 13px;
+  width: 100%;
+}
+
+.color{
+  color: red;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  background-color: #db3546; /* You can change the color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #e61328; /* Hover effect */
+}
+
+.profile-pic-sub-upload {
+  cursor: pointer;
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  padding: 10px;
+}
